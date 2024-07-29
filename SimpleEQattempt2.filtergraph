@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FILTERGRAPH>
-  <FILTER uid="1" x="0.5" y="0.1" useARA="0">
+  <FILTER uid="1" x="0.275" y="0.07258064516129033" useARA="0">
     <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="JUCE" version="1.0" file="" uniqueId="246006c0"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
-            numOutputs="2" isShell="0" hasARAExtension="0" uid="246006c0"/>
+            numOutputs="8" isShell="0" hasARAExtension="0" uid="246006c0"/>
     <STATE>0.</STATE>
     <LAYOUT>
       <INPUTS>
@@ -16,7 +16,7 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="2" x="0.25" y="0.1" useARA="0">
+  <FILTER uid="2" x="0.38875" y="0.1834677419354839" useARA="0">
     <PLUGIN name="MIDI Input" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="JUCE" version="1.0" file="" uniqueId="a9e4f9eb"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
@@ -31,7 +31,7 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="3" x="0.5" y="0.9" useARA="0">
+  <FILTER uid="3" x="0.34125" y="0.9475806451612904" useARA="0">
     <PLUGIN name="Audio Output" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="JUCE" version="1.0" file="" uniqueId="724248cb"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="2"
@@ -39,14 +39,14 @@
     <STATE>0.</STATE>
     <LAYOUT>
       <INPUTS>
-        <BUS index="0" layout="L R"/>
+        <BUS index="0" layout="L R C Lfe Lss Rss Lrs Rrs"/>
       </INPUTS>
       <OUTPUTS>
         <BUS index="0" layout="disabled"/>
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="4" x="0.25" y="0.9" useARA="0">
+  <FILTER uid="4" x="0.69375" y="0.717741935483871" useARA="0">
     <PLUGIN name="MIDI Output" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="JUCE" version="1.0" file="" uniqueId="9d5bbb00"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
@@ -61,11 +61,12 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="5" x="0.485" y="0.6512096774193549" useARA="0" uiLastX_Normal="1197"
-          uiLastY_Normal="202" uiopen_Normal="1">
+  <FILTER uid="5" x="0.37109375" y="0.7692307692307693" useARA="0" uiLastX_Normal="705"
+          uiLastY_Normal="262" uiopen_Normal="1" uiLastX_Generic="2" uiLastY_Generic="173"
+          uiopen_Generic="1" uiLastX_Debug="428" uiLastY_Debug="90" uiopen_Debug="0">
     <PLUGIN name="SimpleEQattempt2" format="VST3" category="Fx" manufacturer="yourcompany"
             version="1.0.0" file="C:\Users\steph\OneDrive\Documents\94-c-plus-plus-Summer\A19-JUCESimpleEQattempt2\SimpleEQattempt2\Builds\VisualStudio2022\x64\Debug\VST3\SimpleEQattempt2.vst3\Contents\x86_64-win\SimpleEQattempt2.vst3"
-            uniqueId="a1a51f" isInstrument="0" fileTime="190f556a4d5" infoUpdateTime="190fa3e66f7"
+            uniqueId="a1a51f" isInstrument="0" fileTime="190f556a4d5" infoUpdateTime="19100c066a7"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="e959d396"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
@@ -78,13 +79,13 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="9" x="0.6975" y="0.1955645161290323" useARA="0" uiLastX_Normal="42"
-          uiLastY_Normal="142" uiopen_Normal="1">
+  <FILTER uid="9" x="0.835" y="0.25" useARA="0" uiLastX_Normal="28" uiLastY_Normal="538"
+          uiopen_Normal="1" uiLastX_IO="170" uiLastY_IO="477" uiopen_IO="0">
     <PLUGIN name="AudioPluginDemo" format="Internal" category="Effect" manufacturer="JUCE"
             version="1.0.0" file="AudioPluginDemo" uniqueId="4d00ec0c" isInstrument="0"
             fileTime="0" infoUpdateTime="0" numInputs="2" numOutputs="2"
             isShell="0" hasARAExtension="0" uid="4d00ec0c"/>
-    <STATE>159.VMjLgXI....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOyQWXzUlO7.UPRETSfjFY8HBYkwVX4IBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iHmEVZtIBH1EFa0UVOhDiKvHxK9vScoMEcgQWYfbWZjQGZ8HBMv.iHffVYocFZz0iHx.CLh7hO77xbzEFck4C.</STATE>
+    <STATE>159.VMjLgXI....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOyQWXzUlO7.UPRETSfjFY8HBYkwVX4IBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iHmEVZtIBH1EFa0UVOhDiKvHxK9vScoMEcgQWYfbWZjQGZ8HBNzjiHffVYocFZz0iHwjyMh7hO77xbzEFck4C.</STATE>
     <LAYOUT>
       <INPUTS>
         <BUS index="0" layout="L R"/>
@@ -94,8 +95,8 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="10" x="0.74125" y="0.4112903225806452" useARA="0" uiLastX_Normal="501"
-          uiLastY_Normal="140" uiopen_Normal="1">
+  <FILTER uid="10" x="0.5125" y="0.4596774193548387" useARA="0" uiLastX_Normal="816"
+          uiLastY_Normal="278" uiopen_Normal="0">
     <PLUGIN name="SamplerPlugin" format="Internal" category="Synth" manufacturer="JUCE"
             version="1.0.0" file="SamplerPlugin" uniqueId="2a34a53b" isInstrument="1"
             fileTime="0" infoUpdateTime="0" numInputs="0" numOutputs="2"
@@ -108,13 +109,13 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="11" x="0.155" y="0.7419354838709677" useARA="0" uiLastX_Normal="284"
+  <FILTER uid="11" x="0.54875" y="0.09274193548387097" useARA="0" uiLastX_Normal="284"
           uiLastY_Normal="378" uiopen_Normal="0">
     <PLUGIN name="AudioPluginDemo" format="Internal" category="Effect" manufacturer="JUCE"
             version="1.0.0" file="AudioPluginDemo" uniqueId="4d00ec0c" isInstrument="0"
             fileTime="0" infoUpdateTime="0" numInputs="2" numOutputs="2"
             isShell="0" hasARAExtension="0" uid="4d00ec0c"/>
-    <STATE>174.VMjLgTJ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOyQWXzUlO7.UPRETSfjFY8HBYkwVX4IBH1EFa0UVOh.iK0HxK9vCTAIUPMARZj0iHmEVZtIBH1EFa0UVOh.iK3jSN4jSN4biMwTCNwPiLwHxK9vScoMEcgQWYfbWZjQGZ8HxL4PiHffVYocFZz0iHwjCMh7hO77xbzEFck4C.</STATE>
+    <STATE>174.VMjLgTJ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOyQWXzUlO7.UPRETSfjFY8HBYkwVX4IBH1EFa0UVOh.iK0HxK9vCTAIUPMARZj0iHmEVZtIBH1EFa0UVOh.iK3jSN4jSN4biMwTCNwPiLwHxK9vScoMEcgQWYfbWZjQGZ8HxL3HiHffVYocFZz0iHwfiLh7hO77xbzEFck4C.</STATE>
     <LAYOUT>
       <INPUTS>
         <BUS index="0" layout="L R"/>
@@ -124,7 +125,7 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="12" x="0.13875" y="0.217741935483871" useARA="0" uiLastX_Normal="148"
+  <FILTER uid="12" x="0.1075" y="0.07056451612903226" useARA="0" uiLastX_Normal="148"
           uiLastY_Normal="316" uiopen_Normal="0">
     <PLUGIN name="DSPModulePluginDemo" format="Internal" category="Effect"
             manufacturer="JUCE" version="1.0.0" file="DSPModulePluginDemo"
@@ -141,7 +142,7 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="13" x="0.415" y="0.3588709677419355" useARA="0" uiLastX_Normal="440"
+  <FILTER uid="13" x="0.36125" y="0.4798387096774194" useARA="0" uiLastX_Normal="440"
           uiLastY_Normal="238" uiopen_Normal="0">
     <PLUGIN name="AUv3 Synth" format="Internal" category="Synth" manufacturer="JUCE"
             version="1.0.0" file="AUv3 Synth" uniqueId="e86c6fed" isInstrument="1"
@@ -155,27 +156,132 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="14" x="0.1475" y="0.5443548387096774" useARA="0" uiLastX_Normal="134"
-          uiLastY_Normal="473" uiopen_Normal="1">
+  <FILTER uid="14" x="0.41625" y="0.3104838709677419" useARA="0" uiLastX_Normal="134"
+          uiLastY_Normal="473" uiopen_Normal="0">
     <PLUGIN name="Arpeggiator" format="Internal" category="Synth" manufacturer="JUCE"
             version="1.0.0" file="Arpeggiator" uniqueId="6ee78399" isInstrument="1"
             fileTime="0" infoUpdateTime="0" numInputs="0" numOutputs="0"
             isShell="0" hasARAExtension="0" uid="6ee78399"/>
-    <STATE>4.6Qgq9.</STATE>
+    <STATE>4.tdT39.</STATE>
     <LAYOUT>
       <INPUTS/>
       <OUTPUTS/>
     </LAYOUT>
   </FILTER>
+  <FILTER uid="15" x="0.64875" y="0.2540322580645161" useARA="0" uiLastX_Normal="112"
+          uiLastY_Normal="377" uiopen_Normal="1" uiLastX_Debug="392" uiLastY_Debug="110"
+          uiopen_Debug="0">
+    <PLUGIN name="AudioPluginDemo" format="Internal" category="Effect" manufacturer="JUCE"
+            version="1.0.0" file="AudioPluginDemo" uniqueId="4d00ec0c" isInstrument="0"
+            fileTime="0" infoUpdateTime="0" numInputs="2" numOutputs="2"
+            isShell="0" hasARAExtension="0" uid="4d00ec0c"/>
+    <STATE>174.VMjLgTJ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOyQWXzUlO7.UPRETSfjFY8HBYkwVX4IBH1EFa0UVOh.iK0HxK9vCTAIUPMARZj0iHmEVZtIBH1EFa0UVOh.iK3jSN4jSN4biMwTCNwPiLwHxK9vScoMEcgQWYfbWZjQGZ8HxL2XiHffVYocFZz0iHwbiMh7hO77xbzEFck4C.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="16" x="0.18625" y="0.4596774193548387" useARA="0" uiLastX_Normal="476"
+          uiLastY_Normal="156" uiopen_Normal="0">
+    <PLUGIN name="SamplerPlugin" format="Internal" category="Synth" manufacturer="JUCE"
+            version="1.0.0" file="SamplerPlugin" uniqueId="2a34a53b" isInstrument="1"
+            fileTime="0" infoUpdateTime="0" numInputs="0" numOutputs="2"
+            isShell="0" hasARAExtension="0" uid="2a34a53b"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS/>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="17" x="0.1675" y="0.1895161290322581" useARA="0" uiLastX_Normal="512"
+          uiLastY_Normal="182" uiopen_Normal="1">
+    <PLUGIN name="AudioPluginDemo" format="Internal" category="Effect" manufacturer="JUCE"
+            version="1.0.0" file="AudioPluginDemo" uniqueId="4d00ec0c" isInstrument="0"
+            fileTime="0" infoUpdateTime="0" numInputs="2" numOutputs="2"
+            isShell="0" hasARAExtension="0" uid="4d00ec0c"/>
+    <STATE>174.VMjLgTJ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOyQWXzUlO7.UPRETSfjFY8HBYkwVX4IBH1EFa0UVOh.iK0HxK9vCTAIUPMARZj0iHmEVZtIBH1EFa0UVOh.iK3jSN4jSN4biMwTCNwPiLwHxK9vScoMEcgQWYfbWZjQGZ8HxL3fiHffVYocFZz0iHwfCNh7hO77xbzEFck4C.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="18" x="0.11375" y="0.2782258064516129" useARA="0" uiLastX_Normal="758"
+          uiLastY_Normal="-680" uiopen_Normal="0">
+    <PLUGIN name="Surround PlugIn" format="Internal" category="Effect" manufacturer="JUCE"
+            version="1.0.0" file="Surround PlugIn" uniqueId="a9805075" isInstrument="0"
+            fileTime="0" infoUpdateTime="0" numInputs="4" numOutputs="4"
+            isShell="0" hasARAExtension="0" uid="a9805075"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+        <BUS index="1" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+        <BUS index="1" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="19" x="0.38375" y="0.6209677419354839" useARA="0">
+    <PLUGIN name="Reverb" format="Internal" category="Effect" manufacturer="JUCE"
+            version="1.0.0" file="Reverb" uniqueId="91b3d5f2" isInstrument="0"
+            fileTime="0" infoUpdateTime="0" numInputs="2" numOutputs="2"
+            isShell="0" hasARAExtension="0" uid="91b3d5f2"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="20" x="0.287109375" y="0.2917271407837446" useARA="0">
+    <PLUGIN name="MIDI Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="a9e4f9eb"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="0" isShell="0" hasARAExtension="0" uid="a9e4f9eb"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="21" x="0.283203125" y="0.4804063860667634" useARA="0">
+    <PLUGIN name="Sine Wave Synth" format="Internal" category="Synth" manufacturer="JUCE"
+            version="1.0.0" file="Sine Wave Synth" uniqueId="16fd76a8" isInstrument="1"
+            fileTime="0" infoUpdateTime="0" numInputs="0" numOutputs="2"
+            isShell="0" hasARAExtension="0" uid="16fd76a8"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS/>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <CONNECTION srcFilter="2" srcChannel="4096" dstFilter="14" dstChannel="4096"/>
   <CONNECTION srcFilter="5" srcChannel="0" dstFilter="3" dstChannel="0"/>
   <CONNECTION srcFilter="5" srcChannel="1" dstFilter="3" dstChannel="1"/>
-  <CONNECTION srcFilter="9" srcChannel="0" dstFilter="5" dstChannel="0"/>
-  <CONNECTION srcFilter="9" srcChannel="1" dstFilter="5" dstChannel="1"/>
-  <CONNECTION srcFilter="10" srcChannel="0" dstFilter="3" dstChannel="0"/>
-  <CONNECTION srcFilter="10" srcChannel="1" dstFilter="3" dstChannel="1"/>
-  <CONNECTION srcFilter="10" srcChannel="0" dstFilter="5" dstChannel="0"/>
-  <CONNECTION srcFilter="10" srcChannel="1" dstFilter="5" dstChannel="1"/>
-  <CONNECTION srcFilter="11" srcChannel="0" dstFilter="3" dstChannel="0"/>
-  <CONNECTION srcFilter="11" srcChannel="1" dstFilter="3" dstChannel="1"/>
-  <CONNECTION srcFilter="14" srcChannel="4096" dstFilter="11" dstChannel="4096"/>
+  <CONNECTION srcFilter="9" srcChannel="4096" dstFilter="4" dstChannel="4096"/>
+  <CONNECTION srcFilter="14" srcChannel="4096" dstFilter="13" dstChannel="4096"/>
+  <CONNECTION srcFilter="20" srcChannel="4096" dstFilter="21" dstChannel="4096"/>
+  <CONNECTION srcFilter="21" srcChannel="0" dstFilter="5" dstChannel="0"/>
+  <CONNECTION srcFilter="21" srcChannel="1" dstFilter="5" dstChannel="1"/>
 </FILTERGRAPH>
